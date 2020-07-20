@@ -1,0 +1,98 @@
+  #body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  #main {
+    flex: 1 0 auto;
+  }
+
+     #main, #footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      #header, #main, #footer {
+        padding-left: 0;
+      }
+
+    }
+        
+
+.banner {
+  position: fixed;
+  z-index: 10;
+}
+
+.menu{
+  position: relative;
+  z-index: 5;
+}   
+
+.icon_style{
+position: absolute;
+right: 10px;
+top: 10px;
+font-size: 20px;
+color: white;
+cursor:pointer; 
+}
+
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  #main {
+    flex: 1 0 auto;
+  }
+
+
+  #card-alert i{
+    font-size:20px;
+    position:relative;
+    top:2px
+  }
+
+  #card-alert .alert-circle{
+    display:inline-block;
+    width:40px;
+    white-space:nowrap;
+    border-radius:1000px;
+    vertical-align:bottom;
+    position:relative;
+    top:-5px;
+    left:-2px
+  }
+
+    #card-alert .single-alert{
+      line-height:42px
+    }
+
+    #card-alert button{
+      background:none;
+      border:none;
+      position:absolute;
+      top:15px;
+      right:10px;
+      font-size:20px;
+      color:#fff
+    }
+
+    #card-alert .card .card-content{
+        padding:20px 40px 20px 20px
+      }
+
+    #card-alert .card-action i{
+      top:0;
+      margin:0
+    }
+
+    .pad {
+      margin-top: 14px;
+     
+    }
+
